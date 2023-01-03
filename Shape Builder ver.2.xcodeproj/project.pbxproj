@@ -11,6 +11,15 @@
 		D36E2C9A29643E3900C9B628 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E2C9929643E3900C9B628 /* ContentView.swift */; };
 		D36E2C9C29643E3A00C9B628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36E2C9B29643E3A00C9B628 /* Assets.xcassets */; };
 		D36E2C9F29643E3A00C9B628 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36E2C9E29643E3A00C9B628 /* Preview Assets.xcassets */; };
+		D36E2CA629643F3200C9B628 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E2CA529643F3200C9B628 /* NavigationBar.swift */; };
+		D36E2CA829643FD000C9B628 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E2CA729643FD000C9B628 /* Entity.swift */; };
+		D36E2CAA2964400900C9B628 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E2CA92964400900C9B628 /* Device.swift */; };
+		D36E2CAC2964409800C9B628 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E2CAB2964409800C9B628 /* DeviceView.swift */; };
+		D36E2CAE2964416600C9B628 /* EntityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E2CAD2964416600C9B628 /* EntityView.swift */; };
+		D36E2CB02964424300C9B628 /* EntityFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E2CAF2964424300C9B628 /* EntityFace.swift */; };
+		D36E2CB22964439200C9B628 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E2CB12964439200C9B628 /* ScreenView.swift */; };
+		D36E2CB42964441500C9B628 /* ShapeToolBar_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E2CB32964441500C9B628 /* ShapeToolBar_View.swift */; };
+		D36E2CB829644A1E00C9B628 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E2CB729644A1E00C9B628 /* Document.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		D36E2C9929643E3900C9B628 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D36E2C9B29643E3A00C9B628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D36E2C9E29643E3A00C9B628 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D36E2CA529643F3200C9B628 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		D36E2CA729643FD000C9B628 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		D36E2CA92964400900C9B628 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		D36E2CAB2964409800C9B628 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		D36E2CAD2964416600C9B628 /* EntityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityView.swift; sourceTree = "<group>"; };
+		D36E2CAF2964424300C9B628 /* EntityFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityFace.swift; sourceTree = "<group>"; };
+		D36E2CB12964439200C9B628 /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		D36E2CB32964441500C9B628 /* ShapeToolBar_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeToolBar_View.swift; sourceTree = "<group>"; };
+		D36E2CB729644A1E00C9B628 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,12 @@
 		D36E2C9629643E3900C9B628 /* Shape Builder ver.2 */ = {
 			isa = PBXGroup;
 			children = (
-				D36E2C9729643E3900C9B628 /* Shape_Builder_ver_2App.swift */,
+				D36E2CB6296444F300C9B628 /* Doc */,
+				D36E2CB5296444DF00C9B628 /* View */,
+				D36E2CB32964441500C9B628 /* ShapeToolBar_View.swift */,
+				D36E2CA529643F3200C9B628 /* NavigationBar.swift */,
 				D36E2C9929643E3900C9B628 /* ContentView.swift */,
+				D36E2C9729643E3900C9B628 /* Shape_Builder_ver_2App.swift */,
 				D36E2C9B29643E3A00C9B628 /* Assets.xcassets */,
 				D36E2C9D29643E3A00C9B628 /* Preview Content */,
 			);
@@ -65,6 +87,27 @@
 				D36E2C9E29643E3A00C9B628 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D36E2CB5296444DF00C9B628 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D36E2CB12964439200C9B628 /* ScreenView.swift */,
+				D36E2CAD2964416600C9B628 /* EntityView.swift */,
+				D36E2CAB2964409800C9B628 /* DeviceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D36E2CB6296444F300C9B628 /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				D36E2CB729644A1E00C9B628 /* Document.swift */,
+				D36E2CAF2964424300C9B628 /* EntityFace.swift */,
+				D36E2CA92964400900C9B628 /* Device.swift */,
+				D36E2CA729643FD000C9B628 /* Entity.swift */,
+			);
+			path = Doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36E2CA829643FD000C9B628 /* Entity.swift in Sources */,
 				D36E2C9A29643E3900C9B628 /* ContentView.swift in Sources */,
+				D36E2CAC2964409800C9B628 /* DeviceView.swift in Sources */,
+				D36E2CB22964439200C9B628 /* ScreenView.swift in Sources */,
+				D36E2CB829644A1E00C9B628 /* Document.swift in Sources */,
 				D36E2C9829643E3900C9B628 /* Shape_Builder_ver_2App.swift in Sources */,
+				D36E2CAE2964416600C9B628 /* EntityView.swift in Sources */,
+				D36E2CA629643F3200C9B628 /* NavigationBar.swift in Sources */,
+				D36E2CAA2964400900C9B628 /* Device.swift in Sources */,
+				D36E2CB42964441500C9B628 /* ShapeToolBar_View.swift in Sources */,
+				D36E2CB02964424300C9B628 /* EntityFace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

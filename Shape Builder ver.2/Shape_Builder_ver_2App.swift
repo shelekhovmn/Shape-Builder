@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Shape_Builder_ver_2App: App {
+        
     var body: some Scene {
         WindowGroup {
-            ContentView()
+                ContentView()
         }
     }
 }
